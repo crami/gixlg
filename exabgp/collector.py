@@ -31,7 +31,7 @@ config["mysql_host"] = ""
 config["mysql_db"] = "gixlg"
 config["mysql_user"] = "gixlg"
 config["mysql_pass"] = "gixlg"
-config["mysql_sock"] = "/tmp/mysqld.sock"
+config["mysql_sock"] = "/var/run/mysqld/mysqld.sock"
 config["mysql_timeout"] = 0
 # True/False - Check if MySQL connection is still live. That significantly can
 # reduce overall performance.
